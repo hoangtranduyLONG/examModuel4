@@ -21,7 +21,7 @@ public class Staff  {
     @Min(value = 18,message = "tuoi phai lon hon 18")
     @Max(value = 35,message = "tuoi phai  nho hon 35")
     private int age;
-    @NumberFormat(pattern = "500" + "usd")
+    @NumberFormat(pattern = "" + "usd")
     private double salary;
 
     @ManyToOne

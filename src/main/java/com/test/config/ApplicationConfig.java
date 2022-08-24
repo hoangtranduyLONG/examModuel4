@@ -49,6 +49,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+
         this.applicationContext = applicationContext;
     }
 
